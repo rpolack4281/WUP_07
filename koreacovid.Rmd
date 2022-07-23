@@ -73,7 +73,7 @@ fisher.test(table1)
 
 Running the chi-squared test confirms the frequency that we had estimated by running our graphical and numerical tests (see "observed counts"). However, the clearest explanation of our results comes in the form of our fisher exact test, which generated a p-value of .0009 for the data provided. Furthermore, the odds ratio (2.3) can be interpreted as the notion that the males are 2.3 times more likely to die from Covid, according to the results of this study.  
 
-
-
 ## Conclusions
+
+In summary, this assignment ventured to explain whether or not death by Covid was independent of sex, in a study of individuals from South Korea. We sought to explain from graphical, numerical, and inferential stances. Our proportion-based bar charts shows a variation in proportion among those who died (favoring men), and this furthered by our numerical results which provided the exact percentage to fortify that claim. Finally, our inferential results provided the exact counts of the prior tests, but also yielded a low p-value, helping to certify that our results had not purely occurred through by chance. Our odds ratio (2.3) was the single most compelling piece of data generated, helping to reinforce the alternative hypothesis that dying is actually dependent (at least in part) on sex.  
 
