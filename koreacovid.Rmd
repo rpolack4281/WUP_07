@@ -63,10 +63,15 @@ colPerc(table1)
 
 The first table table created examines the data in terms of totals of results. It seems that a solid majority of those reported "dead" as a result were males (64%). In analyzing the second table, which was created on the basis of total of gender, a higher proportion of men (3%) were reported dead, as compared to only 1.4% of females. While inferential results are required to assess the statistical significance of these results, it seems that there may be some type of relationship between death and sex in this study, when entertaining the data accumulated thus far. 
 
-
-
 ## Inferential results 
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+Running the chi-squared test confirms the frequency that we had estimated by running our graphical and numerical tests (see "observed counts"). However, the clearest explanation of our results comes in the form of our fisher exact test, which generated a p-value of .0009 for the data provided. Furthermore, the odds ratio (2.3) can be interpreted as the notion that the males are 2.3 times more likely to die from Covid, according to the results of this study.  
 
 
 
